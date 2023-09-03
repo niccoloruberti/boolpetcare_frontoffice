@@ -11,7 +11,7 @@ export default {
                     routeName: 'home',
                 },
                 {
-                    label: 'Animali',
+                    label: 'About Us',
                     routeName: 'animals',
                 },
                 {
@@ -32,9 +32,9 @@ export default {
 
 
 <template lang="">
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <img src="/img/image4.jpeg" style="width: 8rem;" alt="">
+<nav class="navbar navbar-expand-lg bg-body-tertiary  ">
+        <div class="container-fluid ">
+            <img src="/img/logoBoolPet.png" class="nav-height"  alt="">
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,10 +42,8 @@ export default {
             </button>
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-                    <li class="nav-item" v-for="(item, index) in menuItems" :key="index">
-
-                       
-                         <router-link class="nav-link" :to="{ name: item.routeName }">
+                    <li class="nav-item" v-for="(item, index) in menuItems" :key="index">                       
+                         <router-link class="nav-link text-title" :to="{ name: item.routeName }">
                             {{ item.label }}
                         </router-link> 
                     </li>
@@ -61,7 +59,17 @@ export default {
 </template>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
 * {
-    background-color: lightgray;
+    font-family: 'DM Serif Display', serif;
+}
+
+.nav-height {
+    height: 100px;
+}
+
+.nav-link.text-title {
+    text-transform: uppercase;
 }
 </style>

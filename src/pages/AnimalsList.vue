@@ -13,9 +13,20 @@
                 La nostra missione è fornire ai nostri pazienti a quattro zampe le migliori cure possibili, garantendo al
                 tempo stesso un servizio attento e compassionevole ai loro proprietari.
             </p>
+            <h1>Prestazioni</h1>
+            <ul>
+                <li>Visite Cliniche</li>
+                <li>Radiologia</li>
+                <li>Cure Dentali</li>
+                <li>Chirurgia</li>
+                <li>Visite specialistiche</li>
+                <li>Microchips</li>
+                <li>Esami Ematologici</li>
+                <li>Lastra Ufficiale Displasia</li>
+            </ul>
             <h2 class="mt-4">La Nostra Squadra</h2>
             <div class="row">
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4 ">
                     <div class="card">
                         <img src="/img/vet1.jpg" class="card-img-top" alt="Dott. Mario Rossi">
                         <div class="card-body">
@@ -26,7 +37,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="/img/vet2.jpg" class="card-img-top" alt="Dott.ssa Laura Bianchi">
+                        <img src="/img/veterinariof.jpg" class="card-img-top " alt="Dott.ssa Laura Bianchi">
                         <div class="card-body">
                             <h5 class="card-title">Dott.ssa Laura Bianchi</h5>
                             <p class="card-text">Specializzata in animali esotici.</p>
@@ -35,7 +46,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="/img/vet3.jpg" class="card-img-top" alt="Dott. Luca Verdi">
+                        <img src="/img/vet2.jpeg" class="card-img-top" alt="Dott. Luca Verdi">
                         <div class="card-body">
                             <h5 class="card-title">Dott. Luca Verdi</h5>
                             <p class="card-text">Specializzato in animali da fattoria.</p>
@@ -53,6 +64,9 @@ export default {
 };
 </script>
   
-<style scoped>
-/* Puoi aggiungere stili CSS specifici per questa pagina qui */
+<style lang="scss">
+img {
+    width: auto;
+    height: 235px;
+}
 </style>

@@ -5,17 +5,13 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 export default {
     mounted() {
 
-        // const carousel = new bootstrap.Carousel(document.querySelector('#carouselExampleAutoplaying'), {
-        //     interval: 2000,
-        //     pause: 'hover',
-        // });
     },
 }
 </script>
 
 
 <template>
-    <div class="centered-carousel my-5">
+    <div class="centered-carousel my-5 back-jumbo">
         <div class="carousel-wrapper">
             <div id="carouselExampleAutoplaying" class="carousel slide smaller-carousel" data-bs-ride="carousel">
                 <div class="carousel-inner">

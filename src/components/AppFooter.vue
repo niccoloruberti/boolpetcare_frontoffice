@@ -3,8 +3,8 @@
 
 </script>
 
-<template>
-    <div>
+<template >
+    <div class="back-jumbo">
         <!-- Contenuto del tuo carousel -->
 
         <!-- Footer -->
@@ -19,8 +19,8 @@
 <style lang="scss">
 /* Stili per il footer */
 .footer {
-    background-color: #333;
-    /* Cambia il colore di sfondo a tuo piacimento */
+    // background-color: #333;
+    // /* Cambia il colore di sfondo a tuo piacimento */
     color: white;
     /* Cambia il colore del testo a tuo piacimento */
     padding: 20px 0;
@@ -32,4 +32,5 @@
 /* Stili per il testo del footer */
 .footer p {
     margin: 0;
-}</style>
+}
+</style>

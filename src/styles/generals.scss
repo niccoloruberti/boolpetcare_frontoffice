@@ -1,2 +1,13 @@
 @import "/node_modules/bootstrap/scss/bootstrap.scss";
 @import '/node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+
+
+
+.text-title {
+    color: #E04f00 !important;
+}
+
+.back-jumbo {
+    background: rgb(217, 219, 212);
+    background: linear-gradient(0deg, rgba(217, 219, 212, 1) 0%, rgba(236, 200, 109, 1) 8%, rgba(240, 212, 122, 1) 14%, rgba(150, 93, 0, 1) 96%);
+}
