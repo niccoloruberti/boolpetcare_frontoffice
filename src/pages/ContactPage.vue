@@ -1,3 +1,28 @@
+<script>
+import { router } from '../router.JS';
+export default {
+    name: 'ContactPage',
+    data() {
+        return {
+            nome: '',
+            email: '',
+            messaggio: ''
+        };
+    },
+    methods: {
+        inviaMessaggio() {
+            // Qui puoi inserire il codice per inviare il messaggio (es. tramite API o backend)
+            alert('Messaggio inviato con successo!');
+
+            // Resetta i campi del modulo dopo l'invio
+            this.nome = '';
+            this.email = '';
+            this.messaggio = '';
+        }
+    }
+};
+</script>
+
 <template>
     <div>
         <div class="container mt-5">
@@ -51,29 +76,6 @@
         </div>
     </div>
 </template>
-  
-<script>
-export default {
-    data() {
-        return {
-            nome: '',
-            email: '',
-            messaggio: ''
-        };
-    },
-    methods: {
-        inviaMessaggio() {
-            // Qui puoi inserire il codice per inviare il messaggio (es. tramite API o backend)
-            alert('Messaggio inviato con successo!');
-
-            // Resetta i campi del modulo dopo l'invio
-            this.nome = '';
-            this.email = '';
-            this.messaggio = '';
-        }
-    }
-};
-</script>
   
 <style scoped>
 /* Puoi aggiungere stili CSS specifici per questa pagina qui */

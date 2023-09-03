@@ -1,7 +1,10 @@
 <script>
+import { router } from '../router.js';
 export default {
+    name: 'AppHeader',
     data() {
         return {
+            router,
             menuItems: [
                 {
                     label: 'Home',
@@ -42,7 +45,7 @@ export default {
                     <li class="nav-item" v-for="(item, index) in menuItems" :key="index">
 
                        
-                         <router-link class="nav-link active" aria-current="page" :to="{ name: item.routeName }">
+                         <router-link class="nav-link" :to="{ name: item.routeName }">
                             {{ item.label }}
                         </router-link> 
                     </li>
