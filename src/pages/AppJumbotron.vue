@@ -1,19 +1,21 @@
 
 <script>
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 export default {
     mounted() {
 
-        const carousel = new bootstrap.Carousel(document.querySelector('#carouselExampleAutoplaying'), {
-            interval: 2000,
-            pause: 'hover',
-        });
+        // const carousel = new bootstrap.Carousel(document.querySelector('#carouselExampleAutoplaying'), {
+        //     interval: 2000,
+        //     pause: 'hover',
+        // });
     },
 }
 </script>
 
 
 <template>
-    <div class="centered-carousel">
+    <div class="centered-carousel my-5">
         <div class="carousel-wrapper">
             <div id="carouselExampleAutoplaying" class="carousel slide smaller-carousel" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -48,8 +50,9 @@ export default {
 .centered-carousel {
     display: flex;
     justify-content: center;
+    padding: 50px 0;
 
-    height: 100vh;
+    // height: 100vh;
 
 }
 
