@@ -71,7 +71,7 @@ export default {
                     <label for="messaggio" class="form-label">Messaggio</label>
                     <textarea class="form-control" id="messaggio" v-model="messaggio" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Invia Messaggio</button>
+                <button type="submit" class="btn btn-primary my-4">Invia Messaggio</button>
             </form>
         </div>
     </div>
